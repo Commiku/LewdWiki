@@ -1,0 +1,110 @@
+"core": {
+    "permission": {
+      "command": "お前はこのコマンドができない。",
+      "action": "お前はそれができない。",
+      "subcommand": "お前はこのサブコマンドを使用するを持ちません。",
+      "bot": "私はそれの権限を持ちません**(Missing: {0})**",
+      "discord": " お前はこのコマンドを使用するを持ちません ({0})"
+    },
+    "error": {
+      "database": "エラは起こりました。",
+      "contact_devs": "これは起こらないはずだとデベロッパーを連絡してください。",
+      "profile_locked": "ねえ、私は操作を仕上げるために持っている、 待ってください。",
+      "cooldown_hit": "ちょっと待て！お前はコマンドを早くにタイプします。 ({0}s remaining)",
+      "retry": "再試行してください。",
+      "retry_later": " {0} 数秒が待て、再試行してください。",
+      "embed": "Error while trying to create embed. ${msg:error.contact_devs}",
+      "interact": "私はそれの権限を持ちません. (Role/Member interaction prohibited)",
+      "command": {
+        "unknown": "未知なコマンドです。",
+        "unknown_near": "未知なコマンドです, あなたは{0}を志す ?",
+        "unknown_sub": "未知なサブコマンドです。",
+        "restricted": "{0} ユーザーが使用できるコマンド. <https://notfab.net/LewdBot/Premium>を見る"
+      },
+      "regex": {
+        "number": "That is not a valid number.",
+        "boolean": "That is not a valid boolean.",
+        "url": "That is not a valid URL."
+      },
+      "search": {
+        "text_none": "そのテクストのチャンネルが見つけられない。",
+        "text_multiple": "テクストの余計なチャンネルが見つけられない。",
+        "voice_none": "その声のチャンネルが見つけられない。",
+        "voice_multiple": 声の余計なチャンネルが見つけられない。",
+        "role_none": "そのロールが見つけられない。",
+        "role_multiple": " 余計なロールはその名前を名付けます。",
+        "member_none": "ユーザーが見つけられない。",
+        "member_multiple": "Multiple members found, please be more specific."
+      }
+    },
+    "parts": {
+      "second": "秒",
+      "seconds": " 数秒",
+      "minute": "分",
+      "minutes": "分",
+      "hour": "時間",
+      "hours": "時間",
+      "day": "日",
+      "days": "日"
+    }
+  },
+  "economy": {
+    "success": "Transaction completed.",
+    "cookies": {
+      "error": {
+        "not_enough": "You don't have enough :cookie: to do this! (Required {0})",
+        "nothing": "You do not have any cookies."
+      },
+      "transferred_user": "Transferred {0} :cookie: to {1}.",
+      "daily": "+{0} :cookie:! Come back tomorrow to start your streak!",
+      "daily_streak": "+{0} :cookie:! (Streak = {1}) Come back tomorrow for more cookies!",
+      "daily_already": "You already received your daily cookies for today, try again in {0}."
+    }
+  },
+  "language": {
+    "invalid": "'{0}' is not a valid language.",
+    "saved": "Language changed to {0}.",
+    "hiring": "We are looking for translators! Learn more at <https://notfab.net/LewdBot/Premium>",
+    "list": "Available Languages: {0}"
+  },
+  "commands": {
+    "giveme": {
+      "description": "Allows users to add certain roles to themselves.",
+      "purged": "All broken roles have been removed.",
+      "added": "Role has been added to the GiveMe list.",
+      "removed": "Role has been removed from the GiveMe list.",
+      "deleted": "Role deleted (please run purge)",
+      "prohibited": "That role name is not allowed because it's the same as a subcommand.",
+      "already": "This role is already part of the GiveMe list."
+    },
+    "badges": {
+      "description": "LewdBot Badges! Display custom badges on your profile. Earn them by completing their designated tasks.",
+      "owned": "You have this badge!"
+    },
+    "autoplay": {
+      "description": "(Premium) Auto starts playing when a user joins the selected voice channel.",
+      "enabled": "Autoplay has been enabled, make sure to configure the voice channel.",
+      "disabled": "Autoplay has been disabled.",
+      "channel_set": "Voice channel defined to {0}."
+    },
+    "voice": {
+      "error": {
+        "same_voice": "Cannot move user to the same voice channel they are in.",
+        "member_not_connected": "Target member is not connected to a voice channel",
+        "permission_move": "Failed to move {0}, no permission."
+      },
+      "description": "Move multiple users between voice channels",
+      "moving": "Moving members...",
+      "splitting": "Splitting members between channels..."
+    }
+  },
+  "badges": {
+    "error": {
+      "already": "You already have this badge!"
+    },
+    "badge_beta": "Awarded to those who helped test the badge system.",
+    "translator": "You are now a member of the LewdBot translation team.",
+    "halloween_2017": "Spoo.py!",
+    "fbi": "何をしました？"
+  }
+}
