@@ -53,19 +53,19 @@
     "cookies": {
       "error": {
         "not_enough": "You don't have enough :cookie: to do this! (Required {0})",
-        "nothing": "あなたはクッキー持ちません"
+        "nothing": "あなたはクッキーを持ちません"
       },
       "transferred_user": " {0} :cookie: は {1}に賜ります。",
-      "daily": "+{0} :cookie:! Come back tomorrow to start your streak!",
-      "daily_streak": "+{0} :cookie:! (Streak = {1}) Come back tomorrow for more cookies!",
-      "daily_already": "You already received your daily cookies for today, try again in {0}."
+      "daily": "+{0} :cookie:! 明日はもっとクッキーを受けるために帰ってください!",
+      "daily_streak": "+{0} :cookie:! (Streak = {1}) 明日はもっとクッキーを受けるために帰ってください!",
+      "daily_already": "  今日、あなたは毎日のクッキーを受けました。{0} 待って。"
     }
   },
   "language": {
-    "invalid": "'{0}' is not a valid language.",
-    "saved": "Language changed to {0}.",
-    "hiring": "We are looking for translators! Learn more at <https://notfab.net/LewdBot/Premium>",
-    "list": "Available Languages: {0}"
+    "invalid": "'{0}'は言語じゃないです。 ",
+    "saved": " 言語はセットです。{0}です。",
+    "hiring": "私たちは翻訳家を捜し求めます!  <https://notfab.net/LewdBot/Premium>を見ってください",
+    "list": ": 言語:{0}"
   },
   "commands": {
     "giveme": {
