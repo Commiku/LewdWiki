@@ -3,7 +3,7 @@
       "command": "お前はこのコマンドができない。",
       "action": "お前はそれができない。",
       "subcommand": "お前はこのサブコマンドを使用するを持ちません。",
-      "bot": "私はそれの権限を持ちません**(Missing: {0})**",
+      "bot": "私はそれの権限を持ちません。**(Missing: {0})**",
       "discord": " お前はこのコマンドを使用するを持ちません ({0})"
     },
     "error": {
@@ -14,12 +14,12 @@
       "retry": "再試行してください。",
       "retry_later": " {0} 数秒が待て、再試行してください。",
       "embed": "私はエラを遭遇します。 ${msg:error.contact_devs}",
-      "interact": "私はそれの権限を持ちません. (Role/Member interaction prohibited)",
+      "interact": "私はそれの権限を持ちません。 (Role/Member interaction prohibited)",
       "command": {
         "unknown": "未知なコマンドです。",
         "unknown_near": "未知なコマンドです, あなたは{0}を志す ?",
         "unknown_sub": "未知なサブコマンドです。",
-        "restricted": "{0} ユーザーが使用できるコマンド. <https://notfab.net/LewdBot/Premium>を見る"
+        "restricted": "{0} ユーザーが使用できるコマンド. <https://notfab.net/LewdBot/Premium>を見る。"
       },
       "regex": {
         "number": " あれは無効なナンバーじゃないです。",
@@ -31,10 +31,10 @@
         "text_multiple": "テクストの余計なチャンネルが見つけられない。",
         "voice_none": "その声のチャンネルが見つけられない。",
         "voice_multiple": 声の余計なチャンネルが見つけられない。",
-        "role_none": "そのロールが見つけられない。",
-        "role_multiple": " 余計なロールはその名前を名付けます。",
+        "role_none": "その役が見つけられない。",
+        "role_multiple": " 余計な役はその名前を名付けます。",
         "member_none": "ユーザーが見つけられない。",
-        "member_multiple": "多いメンバーを見つけます"
+        "member_multiple": "多いメンバーを見つけます。"
       }
     },
     "parts": {
@@ -52,8 +52,8 @@
     "success": "効果的な商売です。",
     "cookies": {
       "error": {
-        "not_enough": "You don't have enough :cookie: to do this! (Required {0})",
-        "nothing": "あなたはクッキーを持ちません"
+        "not_enough": "これを不充分な :cookie: のためにする! (Required {0})",
+        "nothing": "あなたはクッキーを持ちません。"
       },
       "transferred_user": " {0} :cookie: は {1}に賜ります。",
       "daily": "+{0} :cookie:! 明日はもっとクッキーを受けるために帰ってください!",
@@ -64,46 +64,46 @@
   "language": {
     "invalid": "'{0}'は言語じゃないです。 ",
     "saved": " 言語はセットです。{0}です。",
-    "hiring": "私たちは翻訳家を捜し求めます!  <https://notfab.net/LewdBot/Premium>を見ってください",
-    "list": ": 言語:{0}"
+    "hiring": "私たちは翻訳家を捜し求めます!  <https://notfab.net/LewdBot/Premium>を見ってください。",
+    "list": ": 言語:{0}。"
   },
   "commands": {
     "giveme": {
       "description": "Allows users to add certain roles to themselves.",
-      "purged": "All broken roles have been removed.",
-      "added": "Role has been added to the GiveMe list.",
-      "removed": "Role has been removed from the GiveMe list.",
-      "deleted": "Role deleted (please run purge)",
-      "prohibited": "That role name is not allowed because it's the same as a subcommand.",
-      "already": "This role is already part of the GiveMe list."
+      "purged": "ダメな役は取れる。",
+      "added": "役はギブミーリストに増やしました。",
+      "removed": "役がリストから取れました。",
+      "deleted": "役は取れました(粛清してください。)",
+      "prohibited": "あの役はサブコマンドだから、",
+      "already": "役は付属のリストです。"
     },
     "badges": {
-      "description": "LewdBot Badges! Display custom badges on your profile. Earn them by completing their designated tasks.",
-      "owned": "You have this badge!"
+      "description": "ルードボットのバッジ! あなたのプロフィールにバッジを見せる。 バッジを稼ぐために仕事が完成する。",
+      "owned": "あなたはこのバッジです。"
     },
     "autoplay": {
-      "description": "(Premium) Auto starts playing when a user joins the selected voice channel.",
-      "enabled": "Autoplay has been enabled, make sure to configure the voice channel.",
-      "disabled": "Autoplay has been disabled.",
-      "channel_set": "Voice channel defined to {0}."
+      "description": "(プレミアム) ユーザーは声のチャネルに入るから、音楽は初めます。",
+      "enabled": "アウトプレイは使用可能です。",
+      "disabled": "アウトプレイは体の不自由です。",
+      "channel_set": "声のチャネルは {0}です。"
     },
     "voice": {
       "error": {
-        "same_voice": "Cannot move user to the same voice channel they are in.",
-        "member_not_connected": "Target member is not connected to a voice channel",
+        "same_voice":　"声のチャネルの中のユーザーです",
+        "member_not_connected": "声のチャネルの中のメンバーじゃないです。",
         "permission_move": "Failed to move {0}, no permission."
       },
-      "description": "Move multiple users between voice channels",
-      "moving": "Moving members...",
-      "splitting": "Splitting members between channels..."
+      "description": "声のチャネルの中のユーザーをじゃないです。",
+      "moving": "メンバーを移っている。",
+      "splitting": "メンバーを分かっている。。。"
     }
   },
   "badges": {
     "error": {
-      "already": "You already have this badge!"
+      "already": "あなたはこのバッジです。"
     },
-    "badge_beta": "Awarded to those who helped test the badge system.",
-    "translator": "今、あなたはルードボットのトランスレータのメンバー.",
+    "badge_beta": "これはバッジのテスターに授かりました。",
+    "translator": "今、あなたはルードボットのトランスレータのメンバー。",
     "halloween_2017": "Spoo.py!",
     "fbi": "何をしました？"
   }
